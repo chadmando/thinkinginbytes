@@ -1,0 +1,36 @@
+baseURL = 'http://hugo-quickstart-template.netlify.com'
+languageCode = 'en-us'
+title = 'Thinking In Bytes' # site title on tab Param.logo overrides
+theme = 'mainroad'
+
+[Params]
+  mainSections = ['posts', 'docs']
+  toc = false # Enable Table of Contents
+  favicon = "img/favicon.png"
+  copyright = "Chad Miars"
+
+[Params.logo]
+  image = "img/thinkinginbytes_logo_blacktext.png" # Logo image. Path relative to "static"
+  title = "Thinking In Bytes" # Logo title, otherwise will use site title
+  subtitle = "Thoughts on Technology and Small Business" # Logo subtitle
+ 
+[Params.style.vars]
+  highlightColor = "#1fc600" # Override highlight color
+
+[Params.sidebar]
+  home = "left" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets.search]
+  url = "https://google.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  linkedin = "chad-miars-6489a2122"
+  github = "chadmando"
