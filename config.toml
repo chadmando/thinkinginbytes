@@ -1,7 +1,7 @@
 baseURL = 'http://hugo-quickstart-template.netlify.com'
 languageCode = 'en-us'
 title = 'Thinking In Bytes' # site title on tab Param.logo overrides
-theme = 'mainroad'
+theme = 'Mainroad'
 
 [Params]
   mainSections = ['posts', 'docs']
