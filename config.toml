@@ -1,4 +1,4 @@
-baseURL = 'http://thinkinginbytes.com'
+baseURL = 'https://thinkinginbytes.com'
 languageCode = 'en-us'
 title = 'Thinking In Bytes' # site title on tab Param.logo overrides
 theme = 'Mainroad'
