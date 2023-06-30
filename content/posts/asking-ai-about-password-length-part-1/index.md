@@ -5,7 +5,7 @@ description = "A conversation with Claude about password length limits"
 slug = "asking-ai-about-password-length-part-1"
 date = 2023-06-28
 tags = ['AI','passwords','LLM']
-draft = true
+draft = false
 +++
 
 Recently, I created an account on a respected commercial insurance carrier's site. The site restricted passwords to a maximum of 15 characters. 
