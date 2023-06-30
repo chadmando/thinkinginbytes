@@ -34,3 +34,5 @@ theme = 'Mainroad'
   # Enable parts of social widget
   linkedin = "chad-miars-6489a2122"
   github = "chadmando"
+  email = "chad@<this domain>"
+  
