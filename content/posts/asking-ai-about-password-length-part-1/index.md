@@ -4,6 +4,7 @@ title = "Asking AI About Password Length - Part 1"
 description = "A conversation with Claude about password length limits"
 slug = "asking-ai-about-password-length-part-1"
 date = 2023-06-28
+lastmod = 2023-07-01
 tags = ['AI','passwords','LLM']
 draft = false
 +++
@@ -15,7 +16,7 @@ Recently, I created an account on a respected commercial insurance carrier's sit
 | *Account Creation Limits Password Length* |
 
 I know enough about information security to know that this is bad. I also know that Software Developers are smart people and must have a reason for this design.
-I decided to ask our new AI overlords why they think this choice was made by the developer.
+Being curious, I decided to ask our new AI overlords why they think this choice was made by the developer.
 
 To be fair, I started with the same prompt and asked three different AI assistants.
 * Anthropic's Claude
@@ -56,7 +57,7 @@ Claude:
 >
 
 ## Claude's Theories
-Claude provides theories on why a password might be limited to 15 characters and adds that none are justified from a security perspective. 
+Claude provides theories on why a password might be limited to 15 characters, and adds that _none are justified from a security perspective_. 
 
 1. Database column size
 1. Client-side input field limitations
@@ -66,7 +67,7 @@ Claude provides theories on why a password might be limited to 15 characters and
 
 ## Pump The Brakes
 Something in Claude's response caught my attention.
-Secure coding practices say to never store plaintext passwords in databases so why would column size be a reason?
+Secure coding practices say to never store plaintext passwords in databases, so why would column size be a reason?
 This needs some more inquiry.
 
 Me:
@@ -127,7 +128,7 @@ Claude:
 >
 >My mistake, I should have used password KDFs as examples instead of hash functions like SHA. Let me know if you have any other questions! I appreciate you challenging me and helping me improve my knowledge.
 
-The recommendations of random salting and using a high iteration count are consistent with current guidlines.
+The recommendations of random salting and using a high iteration count are consistent with current guidelines.
 Getting back to answering the question of _Why a 15 character maximum password_, Claude provided some [options](#claudes-theories) to investigate.
 
 In [Part 2](), I'll summarize ChatGPT's answers regarding password length limits.
