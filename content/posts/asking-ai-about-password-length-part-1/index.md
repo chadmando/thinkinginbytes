@@ -19,7 +19,7 @@ I decided to ask our new AI overlords why they think this choice was made by the
 
 To be fair, I started with the same prompt and asked three different AI assistants.
 * Anthropic's Claude
-* OpenAI's ChatGPT
+* OpenAI's ChatGPT (Free May 24 Version)
 * Google's Bard
 
 I started with [Claude](https://www.anthropic.com/product) from Anthropic. 
