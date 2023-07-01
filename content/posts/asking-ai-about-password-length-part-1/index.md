@@ -130,4 +130,4 @@ Claude:
 The recommendations of random salting and using a high iteration count are consistent with current guidlines.
 Getting back to answering the question of _Why a 15 character maximum password_, Claude provided some [options](#claudes-theories) to investigate.
 
-In [Part 2](), I'll summarize ChatGPT's answers regarding password lenght limits.
+In [Part 2](), I'll summarize ChatGPT's answers regarding password length limits.
