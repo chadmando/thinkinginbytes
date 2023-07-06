@@ -4,7 +4,7 @@ title = "Fixing SPF for iCloud Custom Email Domains"
 description = "Removing double quotes in the SPF record fixed validation failure"
 slug = "fix-icloud-custom-email-spf-failure"
 date = 2023-07-04
-lastmod = 2023-07-04
+lastmod = 2023-07-05
 tags = ['icloud','email','DNS']
 draft = false
 +++
@@ -57,3 +57,5 @@ This fixed the SPF validation failure.
 > For my domain with DNS hosted on Netlify, I had to remove the double quotes from Apple's provided Value.
 
 After removing the double quotes, the SPF validation passed and the setup process finished.
+This is how the SPF record looks in Netlify:
+![Working SPF Record](./netlify_spf_record_final.png)
