@@ -6,7 +6,7 @@ theme = 'Mainroad'
 [Params]
   mainSections = ['posts', 'docs']
   toc = false # Enable Table of Contents
-  favicon = "img/favicon.png"
+  favicon = "favicon.ico"
   copyright = "Chad Miars"
 
 [Params.logo]
