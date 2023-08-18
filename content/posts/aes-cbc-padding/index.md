@@ -5,7 +5,7 @@ description = "The padding technique used in AES-CBC Encryption"
 slug = "aes-cbc-padding-explained"
 date = "2023-08-18T02:53:37.112Z"
 tags = [ "cryptography", "python" ]
-draft = true
+draft = false
 +++
 
 Encrypting plaintext using Advanced Encryption Standard (AES) in Cipher Block Chaining (CBC) mode
