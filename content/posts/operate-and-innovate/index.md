@@ -5,7 +5,7 @@ description = "the two modes of work in a small business should be distinct acti
 slug = "operate-innovate"
 date = "2024-02-08T03:32:00.386Z"
 tags = [ "process" , "improvement" ]
-draft = "true"
+draft = "false"
 keywords = [ ]
 +++
 
