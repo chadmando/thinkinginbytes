@@ -1,12 +1,13 @@
 +++
 categories = [ "technology" ]
-title = "Piecewise Hashing"
-description = "A simple example of piecewise hashing by block size"
-slug = "piece-wise-hashing"
-date = "2024-03-16T20:38:06.309Z"
-lastmod = "2024-03-16T20:38:13.092Z"
+title = "A Piecewise Hashing Example"
+description = "A simple example of piecewise hashing by block size using python"
+slug = "piecewise-hashing"
+date = "2024-03-17T15:40:04.479Z"
+lastmod = "2024-03-17T15:40:16.318Z"
 tags = [ "hashing", "malware", "python" ]
-draft = true
+draft = false
+preview = "/content/posts/piecewise-hashing/thinkinginbytes_github_template.png"
 +++
 <!-- TOC -->
 
