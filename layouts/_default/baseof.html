@@ -6,7 +6,7 @@
 	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
-	<meta name="image" content="{{.Site.baseURL}}{{ .Site.Params.featured_image | relURL }}"/>
+	<meta name="image" content="{{Site.baseURL}}{{ Site.Params.featured_image | relURL }}"/>
 	{{- if .Site.Params.opengraph }}
 		{{ template "_internal/opengraph.html" . }}
 	{{- end }}
