@@ -11,7 +11,7 @@ theme = 'Mainroad'
   mathjax = true # Enable MathJax
   mathjaxPath = "https://cdn.mathjax.org/mathjax/latest/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_SVG" # MathJax config
-  featured_image = "img/thinkinginbytes_feature_image.png"
+  featured_image = "thinkinginbytes_feature_image.png"
 
 [Params.logo]
   image = "img/thinkinginbytes_logo_blacktext.png" # Logo image. Path relative to "static"
