@@ -3,7 +3,8 @@ categories = [ "business" ]
 title = "Better Business Email:Shared Inbox"
 description = "Small businesses should keep process related emails out of personal mailboxes."
 slug = "business-email-shared-inbox"
-date = "2023-05-29"
+date = "202-03-23"
+lastmod = "2024-03-23"
 tags = [ "email", "process" ]
 draft = true
 +++
