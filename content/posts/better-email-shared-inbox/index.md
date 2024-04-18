@@ -12,7 +12,7 @@ draft = true
 I plan to create a series of posts about how to do business email better.
 By better, I mean less.
 Less email sent, received, read, re-read, saved, and deleted.
-Less long threads that morph and twist into one or more different topics.
+Less long threads that morph and twist into different topics.
 Less critical business information trapped in a personal mailbox.
 
 ## TL;DR: Keep Business Process Email Out of Personal Mailboxes
@@ -36,18 +36,19 @@ Betty is the bookkeeper.
 She enters vendor bill data into the accounts payable system.
 Betty does quality work, is dependable, and takes pride in paying vendors on-time.
 She checks all bills against open Purchase Orders and quickly resolves payment issues.
+Vendors send Betty all their payment-status requests.
 Her email is used as the "accounts payable" email address for all vendors. 
-She is well-organized and separates the vendor emails into subfolders at the end of every week.
+She separates the vendor emails into subfolders at the end of every week.
 
 
-One day, while Betty is on vacation, a vendor informs you they are holding all future shipments until you pay an outstanding bill.
+One day, while Betty is on vacation, a vendor informs you that they are holding all future shipments until you pay an outstanding bill.
 It appears that the vendor's email systems suffered an temporary outage and they assumed you received a bill that never left their servers!
 The accounting system contains no outstanding balance for the vendor.
 You ask them to re-send the bill, so you can enter and pay before any critical orders are delayed.
 Several hours pass and no bill.
 You call the vendor to confirm they have re-sent the bill.
 They did.
-It was sent to the email on file for accounts payable, Betty's.
+It was sent to the email address on file for accounts payable, Betty's.
 You kindly request that the bill be sent to you.
 After a few minutes, the bill arrives.
 The bill is promptly entered and paid.
@@ -55,8 +56,8 @@ You send the vendor a photo of the check, mail it, and move on with your day.
 
 
 Betty returns from vacation two days later.
-She checks her email right away and sees the vendor's bill.
-Based on the bill's due date, Betty is concerned because this means your company is past due.
+She checks her email and sees the vendor's bill.
+Based on the bill's due date, Betty is horrified because this means your company is past due.
 She confirms that there is no unpaid bill with this reference number and enters it to be paid.
 She even calls the vendor to confirm the bill is past due.
 Because the check is _in the mail_, the vendor responds that no payment has been received.
