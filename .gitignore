@@ -3,3 +3,12 @@
 /.hugo_build.lock
 
 debug.log
+
+# vscode settings
+.vscode/
+
+# front matter settigs
+.frontmatter/
+
+# local generated site files
+public/

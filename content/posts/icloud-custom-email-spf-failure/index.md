@@ -3,8 +3,8 @@ categories = ['technology']
 title = "Fixing SPF for iCloud Custom Email Domains"
 description = "Removing double quotes in the SPF record fixed validation failure"
 slug = "fix-icloud-custom-email-spf-failure"
-date = 2023-07-04
-lastmod = 2023-07-05
+date = "2023-07-04"
+lastmod = "2023-07-05"
 tags = ['icloud','email','DNS']
 draft = false
 +++

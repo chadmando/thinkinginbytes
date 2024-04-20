@@ -1,0 +1,107 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "aes-cbc-padding",
+      "path": "[[workspace]]/content/posts/aes-cbc-padding"
+    },
+    {
+      "title": "asking-ai-about-password-length-part-1",
+      "path": "[[workspace]]/content/posts/asking-ai-about-password-length-part-1"
+    },
+    {
+      "title": "asking-ai-about-password-length-part-2",
+      "path": "[[workspace]]/content/posts/asking-ai-about-password-length-part-2"
+    },
+    {
+      "title": "asking-ai-about-password-length-part-3",
+      "path": "[[workspace]]/content/posts/asking-ai-about-password-length-part-3"
+    },
+    {
+      "title": "business-advice-framework",
+      "path": "[[workspace]]/content/posts/business-advice-framework"
+    },
+    {
+      "title": "first-post",
+      "path": "[[workspace]]/content/posts/first-post"
+    },
+    {
+      "title": "icloud-custom-email-spf-failure",
+      "path": "[[workspace]]/content/posts/icloud-custom-email-spf-failure"
+    },
+    {
+      "title": "operate-and-innovate",
+      "path": "[[workspace]]/content/posts/operate-and-innovate"
+    },
+    {
+      "title": "regex-resources",
+      "path": "[[workspace]]/content/posts/regex-resources"
+    },
+    {
+      "title": "transfer-domain-to-porkbun",
+      "path": "[[workspace]]/content/posts/transfer-domain-to-porkbun"
+    },
+    {
+      "title": "useful-powershell-dates-and-times",
+      "path": "[[workspace]]/content/posts/useful-powershell-dates-and-times"
+    },
+    {
+      "title": "piecewise-hashing",
+      "path": "[[workspace]]/content/posts/piecewise-hashing"
+    }
+  ]
+}
