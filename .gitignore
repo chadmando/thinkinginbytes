@@ -9,3 +9,6 @@ debug.log
 
 # front matter settigs
 .frontmatter/
+
+# local generated site files
+public/
