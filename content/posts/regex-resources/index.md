@@ -45,6 +45,13 @@ The site provides detailed match information that can be exported.
 
 ![Regex 101](./regex101_with_test_data.png)
 
+#### Cyrilex
+
+[Cyrilex](https://extendsclass.com/regex-tester.html) is a visual Regex validation site.
+The site provides a graphic representation of patterns that helps make the various parts of the pattern more readable
+Additionally, it allows the generation of strings from the pattern.
+![Cyrilex site](./cyrilex_site.png)
+
 ### Pre-Built Regex Patterns from Regexhub
 
 Occasionally, you are trying to match a common data pattern, like a phone number or an IPv4 address.
