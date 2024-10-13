@@ -12,3 +12,6 @@ debug.log
 
 # local generated site files
 public/
+
+# macOS DS_Store
+.DS_Store
