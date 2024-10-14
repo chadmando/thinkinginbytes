@@ -6,7 +6,7 @@ slug = "thoughts-on-choices-and-life"
 date = "2024-10-14T03:35:59.358Z"
 lastmod = "2024-10-14T03:35:59.358Z"
 tags = [ "personal", "life" ]
-draft = true
+draft = false
 preview = "/img/thinkinginbytes_feature_image.png"
 +++
 
