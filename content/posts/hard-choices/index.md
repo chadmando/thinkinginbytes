@@ -75,10 +75,9 @@ It's unfair to condemn the quote because it fails to consider nuance and factors
 I don't think it was meant to be an absolute truth.
 Does a pithy saying like this really deserve this much scrutiny?
 Probably not.
-But there was a time when I would be triggered by seeing this saying posted on X (formerly twitter) or LinkedIn.
-My effort was driven by my curiosity about why I reacted that way.
-
-If you think it
+But there was a time when I would be triggered by seeing this posted.
+I've said my peace.
+The next time I see this quote, I'll let it go.
 
 ## Footnotes
 
