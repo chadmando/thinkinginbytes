@@ -4,7 +4,7 @@ title = "Thoughts On Choices And Life"
 description = "The platitude Hard Choices, Easy Life ignores some possible outcomes."
 slug = "thoughts-on-choices-and-life"
 date = "2024-10-14T03:35:59.358Z"
-lastmod = "2024-10-16T03:28:08.321Z"
+lastmod = "2024-10-16T03:31:20.532Z"
 tags = [ "personal", "life" ]
 draft = false
 preview = "/img/thinkinginbytes_feature_image.png"
@@ -27,13 +27,10 @@ Occasionally, I see a social media post[^1][^2][^3] re-quoting:
 
 {{< centeredimage src="1.png" alt="Hard Choices Easy Life Options" caption="Hard Choices Or Easy Choices" width="800px" >}}
 
-
-
 > NOTE: This phrase is also a common headline for LinkedIn profiles.
 > Try searching LinkedIn for "Hard Choices, Easy Life".
 
-
-This popular quote attributed to Jerzy Gregorek [^4].
+This popular quote is attributed to Jerzy Gregorek [^4].
 The post's comments are filled with messages of agreement and confirmation.
 At first, this quote rings true.
 It sounds like a different form of advice I've been given many times.
