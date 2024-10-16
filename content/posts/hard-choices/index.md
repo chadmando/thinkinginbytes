@@ -4,7 +4,7 @@ title = "Thoughts On Choices And Life"
 description = "The platitude Hard Choices, Easy Life ignores some possible outcomes."
 slug = "thoughts-on-choices-and-life"
 date = "2024-10-14T03:35:59.358Z"
-lastmod = "2024-10-14T03:35:59.358Z"
+lastmod = "2024-10-16T03:28:08.321Z"
 tags = [ "personal", "life" ]
 draft = false
 preview = "/img/thinkinginbytes_feature_image.png"
@@ -52,8 +52,6 @@ My opinion is
 This maxim promotes long-term thinking over short-term gains.
 Encourages taking on challenge, sacrifice, and delaying gratification.
 Experience with these minimizes future hardships.
-
-{{< centeredimage src="2.png" alt="Four-Square Grid With Alternative Options" caption="More Options" width="800px">}}
 
 ## The Bad
 
