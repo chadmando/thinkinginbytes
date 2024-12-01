@@ -1,43 +1,57 @@
 baseURL = 'https://thinkinginbytes.com'
 languageCode = 'en-us'
-title = 'Thinking In Bytes' # site title on tab Param.logo overrides
-theme = 'Mainroad'
+title = 'Thinking In Bytes'
+theme = 'hugo-kiera'
+copyright = "Copyright &copy; 2024 - Chadmando"
+canonifyurls = true
+ignoreLogs = ['warning-goldmark-raw-html']
+site_logo = "static/img/thinkinginbytes_logo_blacktext.png"
 
-[Params]
-  mainSections = ['posts', 'docs']
-  toc = false # Enable Table of Contents
+[pagination]
+  pagersize = 5
+  path = 'page'
+
+summaryLength = 2
+enableEmoji = true
+pygmentsCodeFences = true
+
+[params]
+  toc = true # Enable Table of Contents
   favicon = "favicon.ico"
   copyright = "Chad Miars"
   mathjax = true # Enable MathJax
-  mathjaxPath = "https://cdn.mathjax.org/mathjax/latest/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-AMS-MML_SVG" # MathJax config
-  featured_image = "/img/thinkinginbytes_feature_image.png"
+  image = ["/img/thinkinginbytes_feature_image.png"]
   customCSS = ["css/custom.css"]
+  tagline = "Thoughts On Technology And Small Business"
+  description = "ThinkingInBytes: A collections of thoughts on technology and small business"
+  #utterancesRepo = "username/repository"
+  #utterancesIssueTerm = "pathname"
+  homepageLength = 10
+  #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
+  #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
+  #google_fonts = ["Staatliches"] # Adds additional google fonts
+  #disableDarkModeCSS = false # disables css style for users using dark-mode
 
-[Params.logo]
-  image = "img/thinkinginbytes_logo_blacktext.png" # Logo image. Path relative to "static"
-  title = "Thinking In Bytes" # Logo title, otherwise will use site title
-  subtitle = "Thoughts on Technology and Small Business" # Logo subtitle
- 
-[Params.style.vars]
-  highlightColor = "#1fc600" # Override highlight color
+[params.author]
+    name = "chadmando"
+    github = "chadmando"
+    linkedin = "chad-miars-6489a2122"
+    #youtube = "user/username" # or channel/channelname
+    #devto = "username"
+    #stackoverflow = "username"
+    #instagram = "username"
+    #gitlab = "username"
 
-[Params.sidebar]
-  home = "left" # Configure layout for home page
-  list = "right"  # Configure layout for list pages
-  single = false # Configure layout for single pages
-  # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+# uncomment to enable the Tags link on the main toolbar
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 1
 
-[Params.widgets.search]
-  url = "https://google.com/search"
-  [Params.widgets.search.input]
-    name = "sitesearch"
-    pre = ""
-
-[Params.widgets.social]
-  # Enable parts of social widget
-  linkedin = "chad-miars-6489a2122"
-  github = "chadmando"
-  email = "chad@<this domain>"
-  
+# uncomment to enable the Categories link on the main toolbar
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories"
+    weight = 1  
