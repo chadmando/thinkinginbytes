@@ -1,5 +1,22 @@
 
 body {
-	font-size: 18px;
+	font-size: 16px;
 	font-size: 1.0rem;
+	font-family: "Roboto Slab", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+time {
+  font-family: "Open Sans", sans-serif;
+}
+
+#container nav {
+	border-bottom: solid 3px #cecece;
+	padding-bottom: 0.5em;
+	font-family: "Open Sans", sans-serif;
 }
