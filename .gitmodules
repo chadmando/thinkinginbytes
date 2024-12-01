@@ -2,6 +2,3 @@
 	path = themes/Mainroad
 	url = https://github.com/Vimux/Mainroad
 	
-[submodule "themes/hugo-kiera"]
-	path = themes/hugo-kiera
-	url = https://github.com/funkydan2/hugo-kiera.git
