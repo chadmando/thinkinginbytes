@@ -1,12 +1,14 @@
 +++
-categories = ['technology']
+categories = [ "technology" ]
 title = "Regex Resources"
 description = "A short list of online resources for creating Regex patterns"
-slug = 'regex-resources'
-date = 2023-04-24
-tags = ['Regex']
+slug = "regex-resources"
+date = "2023-04-24"
+lastmod = "2025-03-22T15:56:45.178Z"
+tags = [ "Regex" ]
 draft = false
 +++
+
 
 Knowing how to use Regular Expressions (Regex) to solve a technology problem is a superpower.
 You'll encounter Regex in lots of different places.
@@ -54,11 +56,11 @@ Some examples of the patterns on regexhub:
 + Email address
 + Dates & Times
 + URL
-+ Zipcodes
++ ZIP Codes
 + HTML Tags
 
 ![regexhub site image](./regex_patterns_site.png)
 
 ### More Resources
 
-If you are searching for more help, this popular [awesome-regex](https://github.com/aloisdg/awesome-regex) repository on GitHub includes many prototyping sites and links for documentation and learning. 
+If you are searching for more help, this popular [awesome-regex](https://github.com/aloisdg/awesome-regex) repository on GitHub includes many prototyping sites and links for documentation and learning.
