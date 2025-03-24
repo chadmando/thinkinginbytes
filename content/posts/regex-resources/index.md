@@ -4,9 +4,10 @@ title = "Regex Resources"
 description = "A short list of online resources for creating Regex patterns"
 slug = "regex-resources"
 date = "2023-04-24"
-lastmod = "2025-03-22T15:56:45.178Z"
+lastmod = "2025-03-24T01:38:13.188Z"
 tags = [ "Regex" ]
 draft = false
+preview = "/img/thinkinginbytes_feature_image.png"
 +++
 
 
@@ -60,6 +61,11 @@ Some examples of the patterns on regexhub:
 + HTML Tags
 
 ![regexhub site image](./regex_patterns_site.png)
+
+### Regex Patterns For Secrets
+
+The terminal application [Warp](https://www.warp.dev) uses Regex patterns to redact secrets.
+They share their list of patterns in the [docs](https://docs.warp.dev/features/secret-redaction).
 
 ### More Resources
 
