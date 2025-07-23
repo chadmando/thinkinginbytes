@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+
+<head>
+  <title>{{ if and (not .IsHome) (.Title) }}{{ .Params.Title }} - {{ end }}{{ .Site.Title }}</title>
+  {{ partial "meta" . }}
+  {{ partialCached "header_includes" . -}}
+
+  {{ if (templates.Exists "partials/header_supplement.html") }}
+    {{ partial "header_supplement.html" . -}}
+  {{ end }}
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      {{ partial "site_logo" . }}
+      <div class="title-group">
+        <h1>
+          <a href="{{ relLangURL "" }}">{{ .Site.Title | markdownify }}</a>
+        </h1>
+        {{ with .Site.Params.tagline }}
+        <p><em>{{ . | markdownify }}</em></p>
+        {{ end }}
+      </div>
+
+      <ul id="social-media">
+        {{- range .Site.Languages -}}
+          {{ if ne .LanguageName $.Site.Language.LanguageName }}
+            <li><a href="/{{ .Lang }}">{{ .LanguageName }}</a></li>
+          {{ end }}
+        {{- end -}}
+        {{- range .Site.Data.social.social_icons -}}
+          {{- if isset $.Site.Params.Author .id }}
+             <li>
+               <a href="{{ printf .url (index $.Site.Params.Author .id) }}" title="{{ .title }}">
+               <i class="{{ .icon }} fa-lg"></i>
+               </a>
+             </li>
+           {{- end -}}
+        {{ end }}
+      </ul>
+    </header>
+
+    {{ partial "nav" . }}
+
+    <main>
