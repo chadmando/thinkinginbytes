@@ -1,8 +1,8 @@
 {{ if or (.Site.Params.site_logo) (.Params.replace_site_logo) }}
 <div class="site_logo featured_image">
     <a href="{{ relLangURL "/" }}">
-        <img class="logo-light {{ .Site.Params.site_logo_classes }}" src="img/thinkinginbytes_logo_blacktext.png" alt="{{ .Site.Title }}">
-        <img class="logo-dark {{ .Site.Params.site_logo_classes }}" src="img/thinkinginbytes_logo_whitetext.png" alt="{{ .Site.Title }}">
+        <img class="logo-light {{ .Site.Params.site_logo_classes }}" src="{{ absURL "img/thinkinginbytes_logo_blacktext.png" }}" alt="{{ .Site.Title }}">
+        <img class="logo-dark {{ .Site.Params.site_logo_classes }}" src="{{ absURL "img/thinkinginbytes_logo_whitetext.png" }}" alt="{{ .Site.Title }}">
     </a>
 </div>
 {{ end }}
