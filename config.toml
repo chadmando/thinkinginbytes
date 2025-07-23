@@ -5,7 +5,7 @@ theme = 'hugo-kiera'
 copyright = "Copyright &copy; 2024 - Chadmando"
 canonifyurls = true
 ignoreLogs = ['warning-goldmark-raw-html']
-site_logo = "static/img/thinkinginbytes_logo_blacktext.png"
+
 
 [pagination]
   pagersize = 5
@@ -16,11 +16,12 @@ enableEmoji = true
 pygmentsCodeFences = true
 
 [params]
+  site_logo = "img/thinkinginbytes_logo_whitetext.png"
   toc = true # Enable Table of Contents
   favicon = "favicon.ico"
   copyright = "Chad Miars"
   mathjax = true # Enable MathJax
-  image = ["/img/thinkinginbytes_feature_image.png"]
+  image = ["img/thinkinginbytes_feature_image.png"]
   customCSS = ["css/custom.css"]
   tagline = "Thoughts On Technology And Small Business"
   description = "ThinkingInBytes: A collections of thoughts on technology and small business"

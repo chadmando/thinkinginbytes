@@ -20,3 +20,95 @@ time {
 	padding-bottom: 0.5em;
 	font-family: "Open Sans", sans-serif;
 }
+
+/* Make the main site title (H1) uppercase and remove underline */
+header h1 a {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+header h1 a:hover {
+	text-decoration: none;
+}
+
+/* Logo styling and alignment */
+.site_logo {
+	position: relative;
+}
+
+.site_logo img {
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: none !important;
+}
+
+/* Ensure the container has the right dimensions */
+.site_logo a {
+	display: block;
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+/* Theme-based logo switching */
+/* Show light logo (black text) by default and in light mode */
+.site_logo .logo-light {
+	display: block !important;
+}
+
+.site_logo .logo-dark {
+	display: none !important;
+}
+
+/* Show dark logo (white text) in dark mode */
+@media (prefers-color-scheme: dark) {
+	.site_logo .logo-light {
+		display: none !important;
+	}
+	
+	.site_logo .logo-dark {
+		display: block !important;
+	}
+}
+
+/* Align logo and title horizontally */
+header {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.site_logo {
+	margin: 0;
+}
+
+/* Group title and tagline together */
+.title-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+}
+
+header h1 {
+	margin: 0;
+	text-align: center;
+}
+
+/* Style the tagline */
+header p {
+	margin: 5px 0 0 0;
+	color: #1fc600;
+	text-align: center;
+}
+
+header p em {
+	font-style: normal;
+	color: #1fc600;
+}
