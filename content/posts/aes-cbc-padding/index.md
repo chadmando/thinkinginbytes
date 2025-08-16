@@ -13,7 +13,7 @@ Encrypting plaintext using Advanced Encryption Standard (AES) in Cipher Block Ch
 requires the plaintext to be a multiple of 16 bytes long. All plaintext is padded before encryption.
 The padding method is described in Section 6.3 of
 [PKCS #7](https://www.rfc-editor.org/rfc/rfc5652).
-
+<!--more-->
 ## The Padding Technique
 
 If the last block of the plaintext message has 1 byte (e.g., if the plaintext is 17, 33, or 49

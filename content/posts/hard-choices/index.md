@@ -24,7 +24,7 @@ Occasionally, I see a social media post[^1][^2][^3] re-quoting:
 
 >Hard Choices, Easy Life  
 >Easy Choices, Hard Life
-
+<!--more-->
 {{< centeredimage src="1.png" alt="Hard Choices Easy Life Options" caption="Hard Choices Or Easy Choices" width="800px" >}}
 
 > NOTE: This phrase is also a common headline for LinkedIn profiles.

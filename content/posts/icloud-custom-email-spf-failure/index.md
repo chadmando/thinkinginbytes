@@ -15,10 +15,12 @@ You can either purchase a domain through iCloud or bring your own domain.
 The experience here relates to the _bring your own domain_ option.
 
 Configuring the domain to work with iCloud Mail requires several new domain DNS records.
+<!--more-->
 I manage the DNS records for my domain on Netlify.
 Apple verifies these records before completing the setup.
 
 ## DNS Records
+
 The [Apple instructions](https://support.apple.com/en-us/HT212524) give these DNS entries:
 
 * TXT - Special Code to verify ownership
