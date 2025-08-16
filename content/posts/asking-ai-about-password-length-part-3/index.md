@@ -6,6 +6,7 @@ slug = "asking-ai-about-password-length-part-3"
 date = "2023-08-05T13:15:20.859Z"
 tags = [ "AI", "password", "LLM", "Bard" ]
 draft = false
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 In Part 3, I ask Google's [Bard](https://bard.google.com) why _it_ would limit password length to 15 characters in a web application.

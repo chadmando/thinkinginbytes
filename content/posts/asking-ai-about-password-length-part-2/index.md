@@ -6,6 +6,7 @@ slug = "asking-ai-about-password-length-part-2"
 date = 2023-07-07
 tags = ['AI','password','LLM','ChatGPT']
 draft = false
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 In [Part 1](https://thinkinginbytes.com/posts/asking-ai-about-password-length-part-1/), I asked Anthropic's Claude AI Assistant to play _Web Application Developer_ and explain why it would choose to limit its application's password length to no more than 15 characters.

@@ -7,6 +7,7 @@ date = "2023-07-04"
 lastmod = "2023-07-05"
 tags = ['icloud','email','DNS']
 draft = false
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 Subscribers to Apple's iCloud+ have the option of using custom domains with iCloud Mail.

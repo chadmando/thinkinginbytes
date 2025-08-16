@@ -6,6 +6,7 @@ slug = "transfer-google-domain-porkbun"
 date = "2023-09-04T19:24:34.816Z"
 tags = [ "domain", "dns" ]
 draft = false
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 Google has decided to discontinue its domain registration service.

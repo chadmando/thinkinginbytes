@@ -7,6 +7,7 @@ date = "2024-02-08T03:32:00.386Z"
 tags = [ "process" , "improvement" ]
 draft = false
 keywords = [ ]
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 <!-- TOC -->

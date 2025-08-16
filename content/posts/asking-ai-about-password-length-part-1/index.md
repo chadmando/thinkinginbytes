@@ -8,6 +8,7 @@ lastmod = 2023-07-01
 tags = ['AI','passwords','LLM']
 draft = false
 images = ['img/thinkinginbytes_feature_image.png']
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 Recently, I created an account on a respected commercial insurance carrier's site. The site restricted passwords to a maximum of 15 characters. 

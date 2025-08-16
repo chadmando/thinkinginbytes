@@ -6,6 +6,7 @@ slug = "aes-cbc-padding-explained"
 date = "2023-08-18T02:53:37.112Z"
 tags = [ "cryptography", "python" ]
 draft = false
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 Encrypting plaintext using Advanced Encryption Standard (AES) in Cipher Block Chaining (CBC) mode

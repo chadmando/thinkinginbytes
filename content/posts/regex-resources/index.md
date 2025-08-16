@@ -7,7 +7,7 @@ date = "2023-04-24"
 lastmod = "2025-03-24T01:38:13.188Z"
 tags = [ "Regex" ]
 draft = false
-preview = "/img/thinkinginbytes_feature_image.png"
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 

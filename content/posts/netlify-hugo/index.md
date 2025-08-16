@@ -7,7 +7,7 @@ date = "2024-10-16T03:17:01.193Z"
 lastmod = "2024-10-16T03:17:03.917Z"
 tags = [ "hugo", "netlify" ]
 draft = false
-preview = "/img/thinkinginbytes_feature_image.png"
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 

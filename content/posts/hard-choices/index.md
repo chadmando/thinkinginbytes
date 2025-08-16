@@ -7,7 +7,7 @@ date = "2024-10-14T03:35:59.358Z"
 lastmod = "2024-10-16T03:31:20.532Z"
 tags = [ "personal", "life" ]
 draft = false
-preview = "/img/thinkinginbytes_feature_image.png"
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 <!-- TOC -->

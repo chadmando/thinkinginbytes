@@ -6,6 +6,7 @@ slug = "powershell-dates-times"
 date = "2023-11-19T17:42:13.806Z"
 tags = [ "powershell", "date", "time" ]
 draft = false
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 In this article:
 

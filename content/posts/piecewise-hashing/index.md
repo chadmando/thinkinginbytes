@@ -7,7 +7,7 @@ date = "2024-03-17T15:40:04.479Z"
 lastmod = "2024-03-17T15:40:16.318Z"
 tags = [ "hashing", "malware", "python" ]
 draft = false
-preview = "/content/posts/piecewise-hashing/thinkinginbytes_github_template.png"
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 <!-- TOC -->
 

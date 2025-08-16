@@ -7,6 +7,7 @@ date = "2024-04-19T02:38:46.343Z"
 lastmod = "2024-04-19T02:38:50.905Z"
 tags = [ "mathematics", "LaTeX" ]
 draft = false
+preview = "@static/img/thinkinginbytes_feature_image.png"
 +++
 
 ## Background
