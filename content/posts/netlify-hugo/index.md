@@ -19,7 +19,7 @@ To view the site on a local machine, Hugo must be installed.
 It is likely that your local version of Hugo is versions ahead of the default Netlify Hugo version.
 This version mismatch may cause Netlify builds to fail.
 You may need to specify which version of Hugo you want Netlify to use.
-
+<!--more-->
 ## Netlify Site Configuration
 
 First, login to Netlify and select your site.

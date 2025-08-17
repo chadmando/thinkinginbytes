@@ -17,6 +17,7 @@ This field relies heavily on Modular Arithmetic.[^2]
 I bought an undergraduate math textbook for self-study.
 This article is a record of a proof exercise in the book.
 It is also a good exercise in writing math equations using LaTeX.
+<!--more-->
 > NOTE: I asked ChatGPT to confirm the proof.
 > No grades are being assigned here, the point is to learn.
 
