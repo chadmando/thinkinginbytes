@@ -62,6 +62,15 @@ Some examples of the patterns on regexhub:
 
 ![regexhub site image](./regex_patterns_site.png)
 
+### Regexr
+
+The site [Regexr](https://regexr.com) has a good _matching_ visual.
+You can create an account and save your patterns.
+There are many _Community Patterns_ available.
+Users can choose from either Javascript or PCRE engines.
+
+![regexr site image](./regexr.png)
+
 ### Regex Patterns For Secrets
 
 The terminal application [Warp](https://www.warp.dev) uses Regex patterns to redact secrets.
