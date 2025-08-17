@@ -4,7 +4,7 @@ title = "Regex Resources"
 description = "A short list of online resources for creating Regex patterns"
 slug = "regex-resources"
 date = "2023-04-24"
-lastmod = "2025-03-24T01:38:13.188Z"
+lastmod = "2025-08-17T14:39:59.611Z"
 tags = [ "Regex" ]
 draft = false
 preview = "@static/img/thinkinginbytes_feature_image.png"
@@ -64,9 +64,9 @@ Some examples of the patterns on regexhub:
 
 ### Regexr
 
-The site [Regexr](https://regexr.com) has a good _matching_ visual.
+[Regexr](https://regexr.com) has a good _matching_ visual.
 You can create an account and save your patterns.
-There are many _Community Patterns_ available.
+Leverage the _Community Patterns_ to accelerate pattern development.
 Users can choose from either Javascript or PCRE engines.
 
 ![regexr site image](./regexr.png)
