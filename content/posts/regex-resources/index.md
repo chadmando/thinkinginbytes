@@ -31,7 +31,7 @@ Code snippets for your pattern are available for many programming languages.
 
 ![Regex Generator First Steps](./regex-generator-first-steps.png)
 
-#### Rubular
+### Rubular
 
 The clean design of [Rubular](https://rubular.com/) makes it a good choice for testing and prototyping patterns.
 The _Quick Reference_ section is clear and simple.
@@ -39,7 +39,7 @@ The permalink option is handy for sharing your pattern and test data with others
 
 ![Rubular.com site](./rubular_site.png)
 
-#### Regex 101
+### Regex 101
 
 [Regular Expressions 101](https://regex101.com/) is another excellent Regex validation site.
 It has more features than Rubular, but the _Quick Reference_ area isn't as easy to read.
