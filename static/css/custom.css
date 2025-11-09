@@ -112,3 +112,8 @@ header p em {
 	font-style: normal;
 	color: #1fc600;
 }
+
+/* Add spacing between consecutive figures */
+figure + figure {
+	margin-top: 2rem;
+}
