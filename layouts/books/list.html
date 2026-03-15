@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<section id="book-list">
+
+  <h2>{{ .Title }}</h2>
+
+  {{ .Content }}
+
+  <div class="book-grid">
+    {{ range .Pages.ByDate.Reverse }}
+    <a class="book-card" href="{{ .Permalink }}">
+      {{ with .Resources.GetMatch "cover*" }}
+      <img src="{{ .RelPermalink }}" alt="Cover of {{ $.Title }}">
+      {{ end }}
+      <div class="book-card-info">
+        <span class="book-card-title">{{ .Title }}</span>
+        <span class="book-card-author">{{ .Params.author }}</span>
+        <time class="book-card-date">{{ .Date.Format "Jan 2006" }}</time>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+
+</section>
+
+{{ end }}

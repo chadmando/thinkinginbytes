@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<article class="book-review">
+
+  <div class="book-header">
+    {{ with .Resources.GetMatch "cover*" }}
+    <div class="book-cover">
+      <img src="{{ .RelPermalink }}" alt="Cover of {{ $.Title }}">
+    </div>
+    {{ end }}
+
+    <div class="book-info">
+      <h1>{{ .Title }}</h1>
+
+      <dl class="book-meta">
+        <dt>Author</dt>
+        <dd>{{ .Params.author }}</dd>
+
+        <dt>Posted</dt>
+        <dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></dd>
+
+        {{ with .Params.format }}
+        <dt>Format</dt>
+        <dd>{{ . | title }}</dd>
+        {{ end }}
+
+        {{ with .Params.isbn }}
+        <dt>ISBN</dt>
+        <dd>{{ . }}</dd>
+        {{ end }}
+
+        {{ with .Params.book_link }}
+        <dt>Find It</dt>
+        <dd><a href="{{ . }}" rel="noopener noreferrer nofollow">Get the book</a></dd>
+        {{ end }}
+      </dl>
+
+      {{ if .Params.tags }}
+      <div class="book-tags">
+        {{ range .Params.tags }}
+        <a href="{{ relLangURL (printf "tags/%s" (. | urlize)) }}">#{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ with .Content }}
+  <div class="book-content">
+    {{ . }}
+  </div>
+  {{ end }}
+
+</article>
+
+{{ partial "single_footer" . }}
+
+{{ end }}
